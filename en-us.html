@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>brauser</title>
+	<link rel="stylesheet" href="style.css">
+<style>
+    body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+ <body>
+<div class="container">
+  <h1>Welcome to brauser!</h1>
+  <p> Brauser is a landing page for older browsers to explore the internet more easily!</p><br>
+<script type="text/javascript" src="https://counter.websiteout.com/js/15/6/0/0"></script><br>
+  Your browser is a:
+  <script>
+   document.write(window.navigator.userAgent);
+  </script>
+<p>Use this if you want to explore any site on the web!</p>
+<div class="container">
+        <input placeholder="Insert yor URL here" class="form-control" type="text" id="field" onkeydown="if (event.keyCode == 13) loadurl();">
+        <button class="btn btn-primary" onclick="loadurl();">
+           Load
+        </button>
+	</div>
+<script type="text/javascript">
+
+	function loadurl() {
+		var input2 = document.getElementById("field").value;
+		if(input2 !== "") {
+			if(!input2.toLowerCase().startsWith("http://") && !input2.toLowerCase().startsWith("https://")) {
+				input2 = "https://" + input2;
+				window.location.href = input2;
+			}
+		}
+	};
+  </script>
+<br>
+<p>If you don't have a keyboard to type above, click <a href="https://www.google.com"> here</a> to enter Google!  (although it probably won't help because you don't have a keyboard)</p>
+	<button id="mode-toggle">Cambiar modo</button>
+  <script src="darkmode.js"></script>
+<h2>To-do:</h2>
+- Nothing (for now)<br>
+</body>
+
+</html>
+
