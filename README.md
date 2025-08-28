@@ -1,5 +1,5 @@
 # brauser
-If you want the english version, click [here](pppp) <br>
+If you want the english version, click [here](https://github.com/Luarpri/brauser/blob/main/READMEng.md)<br>
 <br>
 Brauser es una "pagina de aterrizaje" para que navegadores antiguos puedan explorar el internet de una forma mas facil!, y todo en un solo archivo HTML!* <br>
 <sup>*dos html, un script y un css, en realidad</sup>
