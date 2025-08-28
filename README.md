@@ -6,7 +6,8 @@ Brauser es una "pagina de aterrizaje" para que navegadores antiguos puedan explo
 - Samsung Smart TV X11
 - Nintendo Switch
 - Rakuten Kobo
-- Wii U (via CEMU)
+- Wii U
+- PSVita (usando [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso) asi que puede que no funcione igual en sistemas "limpios")
 
 # Cosas a añadir
 - nada (por ahora)
