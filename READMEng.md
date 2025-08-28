@@ -1,5 +1,5 @@
 # brauser
-Si quieres la version en español, pulsa [aqui](https://github.com/Luarpri/brauser/blob/main/README.md))<br>
+Si quieres la version en español, pulsa [aqui](https://github.com/Luarpri/brauser/blob/main/README.md)<br>
 <br>
 Brauser is a "landing page" for older browsers to explore the internet more easily! And all in a single HTML file!* <br>
 <sup>*two html, one script, and one css, actually</sup>
