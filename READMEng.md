@@ -1,5 +1,6 @@
 # brauser
-Si quieres la version en español, pulsa [aqui](pppp)
+Si quieres la version en español, pulsa [aqui](pppp)<br>
+<br>
 Brauser is a "landing page" for older browsers to explore the internet more easily! And all in a single HTML file!* <br>
 <sup>*two html, one script, and one css, actually</sup>
 # Systems tested
