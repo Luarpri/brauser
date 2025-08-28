@@ -1,4 +1,5 @@
 # brauser
+If you want the english version, click [here](pppp)
 Brauser es una "pagina de aterrizaje" para que navegadores antiguos puedan explorar el internet de una forma mas facil!, y todo en un solo archivo HTML!* <br>
 <sup>*dos html, un script y un css, en realidad</sup>
 # Sistemas probados
