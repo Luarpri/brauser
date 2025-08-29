@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>brauser</title>
+	<link rel="stylesheet" href="style.css">
+<style>
+    body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+ <body>
+<div class="container">
+  <h1>Bienvenido a brauser!</h1>
+  <p> brauser es una "pagina de aterrizaje" para que navegadores ocultos puedan explorar el internet de una forma mas facil! Esta es la version de discord</p><br>
+<script type="text/javascript" src="https://counter.websiteout.com/js/15/6/0/0"></script><br>
+  Tu navegador es un:
+  <script>
+   document.write(window.navigator.userAgent);
+  </script>
+<p>Usa esto si quieres ir a cualquier lugar en la web!</p>
+
+ <div>
+    <label for="url">URL:</label>
+    <input type="text" id="url" value="https://www.ejemplo.com" size="50">
+  </div>
+  <div>
+    <label for="width">Ancho:</label>
+    <input type="number" id="width" value="600">
+  </div>
+  <div>
+    <label for="height">Alto:</label>
+    <input type="number" id="height" value="400">
+  </div>
+
+  <button onclick="generateIframe()">Cargar Iframe</button>
+
+  <h3>Vista Previa:</h3>
+  <div id="preview-container">
+    <iframe id="preview-frame" src="https://luarpri.github.io/brauser" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <script>
+    function generateIframe() {
+      const url = document.getElementById('url').value;
+      const width = document.getElementById('width').value;
+      const height = document.getElementById('height').value;
+
+      const iframeElement = document.getElementById('preview-frame');
+      const codeOutput = document.getElementById('iframe-code-output');
+
+      // Actualizar la vista previa
+      iframeElement.src = url;
+      iframeElement.width = width + 'px'; // Asegurarse de que sea un string con 'px'
+      iframeElement.height = height + 'px';
+
+      // Generar el código para el textarea
+      const iframeCode = `<iframe src="${url}" width="${width}" height="${height}" frameborder="0" allowfullscreen></iframe>`;
+      codeOutput.value = iframeCode;
+    }
+  </script>
+
+<br>
+
+	<button id="mode-toggle">Cambiar modo</button>
+  <script src="darkmode.js"></script>
+<h2>Para hacer:</h2>
+- Nada (por ahora)<br>
+</body>
+
+</html>
+
