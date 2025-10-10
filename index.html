@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>brauser</title>
+	<link rel="stylesheet" href="stylesheet/style.css">
+<style>
+    body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+ <body>
+<div class="container">
+  <h1>Bienvenido a brauser!</h1>
+  <p> brauser es una "pagina de aterrizaje" para maquinitas en tiendas (:</p><br>
+<script type="text/javascript" src="https://counter.websiteout.com/js/15/6/0/0"></script><br>
+  Tu navegador es un:
+  <script>
+   document.write(window.navigator.userAgent);
+  </script>
+<p>Usa esto si quieres ir a cualquier lugar en la web!</p>
+<div class="container">
+        <input placeholder="Introduce tu URL aqui" class="form-control" type="text" id="field" onkeydown="if (event.keyCode == 13) loadurl();">
+        <button class="myButton" onclick="loadurl();">
+           Cargar
+        </button>
+	</div>
+<script type="text/javascript">
+
+	function loadurl() {
+		var input2 = document.getElementById("field").value;
+		if(input2 !== "") {
+			if(!input2.toLowerCase().startsWith("http://") && !input2.toLowerCase().startsWith("https://")) {
+				input2 = "https://" + input2;
+				window.location.href = input2;
+			}
+		}
+	};
+  </script>
+<br>
+<p>Si no tienes un teclado para escribir arriba, puedes usar estos enlaces utiles:</p><br>
+	  <h2>Enlaces utiles</h2>
+	<div>
+  <ul>
+    <li><a href="https://explore.whatismybrowser.com/useragents/parse/?analyse-my-user-agent=yes">What is my browser</a></li>
+    <li><a href="https://google.com">Google</a></li>
+    <li><a href="https://archive.org/details/DoomsharewareEpisode">Doom (Shareware)</a></li>
+	<li><a href="https://fakebsod.com/">FakeBsod</a></li>
+  </ul>
+</div>
+
+
+	<button id="mode-toggle" class="myButton">Cambiar modo</button>
+  <script src="script/darkmode.js"></script>
+<h2>Para hacer:</h2>
+- Nada (por ahora)<br>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
