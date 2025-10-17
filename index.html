@@ -2,7 +2,7 @@
 <head>
 <title>brauser</title>
 	<link rel="stylesheet" href="stylesheet/style.css">
-<style>
+<style> 
     body {
       background-color: white;
       color: black;
@@ -13,26 +13,32 @@
       background-color: black;
       color: white;
     }
+@font-face {
+  font-family: myFont;
+  src: url(font/Poppins-Medium.woff2) format("woff2");
+}
+* {
+   font-family: myFont;
+}
   </style>
 </head>
  <body>
 <div class="container">
   <h1>Bienvenido a brauser!</h1>
-  <p> brauser es una "pagina de aterrizaje" para maquinitas en tiendas (:</p><br>
 <script type="text/javascript" src="https://counter.websiteout.com/js/15/6/0/1"></script><br>
-  Tu navegador es un:
+  <p>Tu navegador es un:</p>
   <script>
-   document.write(window.navigator.userAgent);
+  document.write(window.navigator.userAgent);
   </script>
+  <h5>ver informacion detallada <a href="https://www.whatismybrowser.com/detect/what-is-my-user-agent">aqui</a></h5>
 <p>Usa esto si quieres ir a cualquier lugar en la web!</p>
 <div class="container">
         <input placeholder="Introduce tu URL aqui" class="form-control" type="text" id="field" onkeydown="if (event.keyCode == 13) loadurl();">
-        <button class="myButton" onclick="loadurl();">
+        <button class="myButton"  onclick="loadurl();">
            Cargar
         </button>
 	</div>
 <script type="text/javascript">
-
 	function loadurl() {
 		var input2 = document.getElementById("field").value;
 		if(input2 !== "") {
@@ -43,32 +49,18 @@
 		}
 	};
   </script>
-<br>
-<p>Si no tienes un teclado para escribir arriba, puedes usar estos enlaces utiles:</p><br>
+<p>Si no tienes un teclado para escribir arriba, puedes usar estos enlaces utiles:</p>
 	  <h2>Enlaces utiles</h2>
 	<div>
   <ul>
-    <li><a href="https://explore.whatismybrowser.com/useragents/parse/?analyse-my-user-agent=yes">What is my browser</a></li>
     <li><a href="https://google.com">Google</a></li>
     <li><a href="https://archive.org/details/DoomsharewareEpisode">Doom (Shareware)</a></li>
 	<li><a href="https://fakebsod.com/">FakeBsod</a></li>
   </ul>
 </div>
-
-
-	<button id="mode-toggle" class="myButton">Cambiar modo</button>
+	<button id="mode-toggle" class="myButton" >Cambiar modo</button>
   <script src="script/darkmode.js"></script>
 <h2>Para hacer:</h2>
-- Nada (por ahora)<br>
+<p>- Nada (por ahora)</p>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
