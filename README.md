@@ -15,4 +15,3 @@ Echale un vistazo a la [galeria](https://github.com/luarpri/brauser/gallery/GALL
      - Descarga Python (desde la web ofical, no desde Microsoft Store)
      - Ejecuta en una ventana de terminal dentro de la carpeta que acabas de descomprimir `python -m http.server`
      - Brauser se estara ejecutando en https://localhost:8000
->>>>>>> f8b3fa8be3a39fefd4e60a2d107938931bb36884
