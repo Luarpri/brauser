@@ -2,7 +2,7 @@
 <a href="https://github.com/Luarpri/brauser/actions/workflows/pages/pages-build-deployment/"><img src="https://github.com/Luarpri/brauser/actions/workflows/pages/pages-build-deployment/badge.svg" alt="compilar"></a><br>
 Brauser es una "pagina de aterrizaje" para basicamente cualquier cosa que use tecnologia web, iframes, juegos de Construct, aplicaciones webview , etc<br>
 
-Echale un vistazo a la [galeria](https://github.com/luarpri/brauser/gallery/GALLERY.md) para ver algunos ejemplos
+Echale un vistazo a la [galeria](https://github.com/Luarpri/brauser/blob/main/gallery/GALLERY.md) para ver algunos ejemplos
 
 # Ejecutar localmente
 
