@@ -15,4 +15,3 @@ modeToggle.addEventListener('click', () => {
   }
   localStorage.setItem('mode', mode);
 });
-<!-- genere esto con la ia de google lmaooo -->
